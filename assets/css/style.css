@@ -1,0 +1,101 @@
+*{ 
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{ 
+    display: flex;
+    justify-content: center;
+    background-color: rgb(85, 85, 248);
+    
+}
+
+#container{ 
+    background-color: rgb(103, 103, 226);
+    width: 350px;
+    height: 600px;
+    margin-top: 30px;
+    border-radius: 20px;
+    box-shadow: 4px 2px  8px black;
+}
+
+form{ 
+    width: inherit;
+    height: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+input{ 
+    background-color: transparent;
+    color: #fff;
+    width: 280px;
+    height: 30px;
+    border: none;
+    border-bottom: 1px solid black;
+
+}
+
+h1{ 
+    text-transform: uppercase;
+    margin-bottom: 70px;
+}
+
+input::placeholder{ 
+    color: #fff;
+    text-transform: uppercase;
+    padding-left: 10px;
+    font-size: 13px;
+}
+
+.link{ 
+    color: #fff;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.link:hover{
+    text-decoration: underline;
+}
+
+
+#botao{
+    border: 1px solid black;
+    width: 135px;
+    border-radius: 30px;
+    margin-top: 30px;
+    text-transform: uppercase;
+    box-shadow: 2px 4px 6px black;
+}
+
+
+
+#botao:hover{
+    cursor: pointer;
+    background-color: #fff;
+    color: black;
+    transition: 2s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
